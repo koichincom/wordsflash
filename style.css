@@ -1,0 +1,203 @@
+/* Basic styling for the application */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Styling for the word input form */
+#word-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#word-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 8px;
+    /* Rounded corners */
+    border: 1px solid #ddd;
+    /* Border for visibility */
+    transition: border-color 0.3s ease;
+    /* Smooth transition */
+}
+
+#word-input:focus {
+    border-color: #007AFF;
+    /* Change border color on focus */
+    outline: none;
+    /* Remove default outline */
+}
+
+#add-word-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007AFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+#add-word-btn:hover {
+    background-color: #0051A8;
+    /* Darker on hover */
+}
+
+/* Styling for the word list */
+#word-list {
+    max-width: 600px;
+    margin: 20px auto;
+    /* Centered and with top/bottom spacing */
+    padding: 10px;
+    /* Same padding as learning record */
+    background-color: #fff;
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+}
+
+#word-list h2 {
+    text-align: center;
+    /* Centered title */
+    color: #333;
+    /* Same color as learning record */
+}
+
+#word-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#word-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#word-list li:last-child {
+    border-bottom: none;
+    /* No border for last item */
+}
+
+.edit-btn,
+.delete-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    /* Rounded corners */
+    color: white;
+}
+
+.edit-btn {
+    background-color: #FFC107;
+    /* Edit Button Color */
+}
+
+.delete-btn {
+    background-color: #DC3545;
+    /* Delete Button Color */
+}
+
+/* Styling for the buttons */
+#test-btn,
+#record-btn {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0A84FF;
+    /* Accent color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+#test-btn:hover,
+#record-btn:hover {
+    background-color: #0841B3;
+    /* Darker on hover */
+}
+
+/* Styling for the learning record */
+#learning-record {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Soft shadow */
+}
+
+#learning-record h2 {
+    text-align: center;
+    color: #333;
+}
+
+#learning-record ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#learning-record li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#learning-record li:last-child {
+    border-bottom: none;
+    /* No border for last item */
+}
+
+/* Footer Styling */
+#footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+#footer p {
+    margin: 0;
+    /* Remove default margin */
+    color: #333;
+    /* Dark text color */
+}
+
+.footer-link {
+    color: #007AFF;
+    /* Accent color for the link */
+    text-decoration: none;
+    /* Remove underline */
+    margin: 0 10px;
+    /* Spacing between links */
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    /* Underline on hover for clarity */
+}
